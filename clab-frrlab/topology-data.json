@@ -6,7 +6,7 @@
       "prefix": "clab",
       "mgmt": {
         "network": "clab",
-        "bridge": "br-13124dbf1795",
+        "bridge": "br-3e813fe8a86f",
         "ipv4-subnet": "172.20.20.0/24",
         "ipv4-gw": "172.20.20.1",
         "ipv6-subnet": "2001:172:20:20::/64",
@@ -23,24 +23,24 @@
       "longname": "clab-frrlab-PC1",
       "fqdn": "PC1.frrlab.io",
       "group": "",
-      "labdir": "/root/Documents/frrlab/clab-frrlab/PC1",
+      "labdir": "/home/mark/Documents/frrlab2/clab-frrlab/PC1",
       "kind": "linux",
       "image": "praqma/network-multitool:latest",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.8",
+      "mgmt-ipv4-address": "172.20.20.3",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "2001:172:20:20::8",
+      "mgmt-ipv6-address": "2001:172:20:20::3",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-13124dbf1795",
+        "clab-mgmt-net-bridge": "br-3e813fe8a86f",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/root/Documents/frrlab/clab-frrlab/PC1",
+        "clab-node-lab-dir": "/home/mark/Documents/frrlab2/clab-frrlab/PC1",
         "clab-node-name": "PC1",
         "clab-node-type": "",
-        "clab-topo-file": "/root/Documents/frrlab/frrlab.yml",
+        "clab-topo-file": "/home/mark/Documents/frrlab2/frrlab.yml",
         "containerlab": "frrlab"
       }
     },
@@ -50,24 +50,24 @@
       "longname": "clab-frrlab-PC2",
       "fqdn": "PC2.frrlab.io",
       "group": "",
-      "labdir": "/root/Documents/frrlab/clab-frrlab/PC2",
+      "labdir": "/home/mark/Documents/frrlab2/clab-frrlab/PC2",
       "kind": "linux",
       "image": "praqma/network-multitool:latest",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.9",
+      "mgmt-ipv4-address": "172.20.20.2",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "2001:172:20:20::9",
+      "mgmt-ipv6-address": "2001:172:20:20::2",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-13124dbf1795",
+        "clab-mgmt-net-bridge": "br-3e813fe8a86f",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/root/Documents/frrlab/clab-frrlab/PC2",
+        "clab-node-lab-dir": "/home/mark/Documents/frrlab2/clab-frrlab/PC2",
         "clab-node-name": "PC2",
         "clab-node-type": "",
-        "clab-topo-file": "/root/Documents/frrlab/frrlab.yml",
+        "clab-topo-file": "/home/mark/Documents/frrlab2/frrlab.yml",
         "containerlab": "frrlab"
       }
     },
@@ -77,24 +77,24 @@
       "longname": "clab-frrlab-PC3",
       "fqdn": "PC3.frrlab.io",
       "group": "",
-      "labdir": "/root/Documents/frrlab/clab-frrlab/PC3",
+      "labdir": "/home/mark/Documents/frrlab2/clab-frrlab/PC3",
       "kind": "linux",
       "image": "praqma/network-multitool:latest",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.4",
+      "mgmt-ipv4-address": "172.20.20.6",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "2001:172:20:20::4",
+      "mgmt-ipv6-address": "2001:172:20:20::6",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-13124dbf1795",
+        "clab-mgmt-net-bridge": "br-3e813fe8a86f",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/root/Documents/frrlab/clab-frrlab/PC3",
+        "clab-node-lab-dir": "/home/mark/Documents/frrlab2/clab-frrlab/PC3",
         "clab-node-name": "PC3",
         "clab-node-type": "",
-        "clab-topo-file": "/root/Documents/frrlab/frrlab.yml",
+        "clab-topo-file": "/home/mark/Documents/frrlab2/frrlab.yml",
         "containerlab": "frrlab"
       }
     },
@@ -104,7 +104,7 @@
       "longname": "clab-frrlab-router1",
       "fqdn": "router1.frrlab.io",
       "group": "",
-      "labdir": "/root/Documents/frrlab/clab-frrlab/router1",
+      "labdir": "/home/mark/Documents/frrlab2/clab-frrlab/router1",
       "kind": "linux",
       "image": "frrouting/frr:v7.5.1",
       "mgmt-net": "",
@@ -115,13 +115,13 @@
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-13124dbf1795",
+        "clab-mgmt-net-bridge": "br-3e813fe8a86f",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/root/Documents/frrlab/clab-frrlab/router1",
+        "clab-node-lab-dir": "/home/mark/Documents/frrlab2/clab-frrlab/router1",
         "clab-node-name": "router1",
         "clab-node-type": "",
-        "clab-topo-file": "/root/Documents/frrlab/frrlab.yml",
+        "clab-topo-file": "/home/mark/Documents/frrlab2/frrlab.yml",
         "containerlab": "frrlab"
       }
     },
@@ -131,7 +131,7 @@
       "longname": "clab-frrlab-router2",
       "fqdn": "router2.frrlab.io",
       "group": "",
-      "labdir": "/root/Documents/frrlab/clab-frrlab/router2",
+      "labdir": "/home/mark/Documents/frrlab2/clab-frrlab/router2",
       "kind": "linux",
       "image": "frrouting/frr:v7.5.1",
       "mgmt-net": "",
@@ -142,13 +142,13 @@
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-13124dbf1795",
+        "clab-mgmt-net-bridge": "br-3e813fe8a86f",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/root/Documents/frrlab/clab-frrlab/router2",
+        "clab-node-lab-dir": "/home/mark/Documents/frrlab2/clab-frrlab/router2",
         "clab-node-name": "router2",
         "clab-node-type": "",
-        "clab-topo-file": "/root/Documents/frrlab/frrlab.yml",
+        "clab-topo-file": "/home/mark/Documents/frrlab2/frrlab.yml",
         "containerlab": "frrlab"
       }
     },
@@ -158,24 +158,24 @@
       "longname": "clab-frrlab-router3",
       "fqdn": "router3.frrlab.io",
       "group": "",
-      "labdir": "/root/Documents/frrlab/clab-frrlab/router3",
+      "labdir": "/home/mark/Documents/frrlab2/clab-frrlab/router3",
       "kind": "linux",
       "image": "frrouting/frr:v7.5.1",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.20.20.6",
+      "mgmt-ipv4-address": "172.20.20.4",
       "mgmt-ipv4-prefix-length": 24,
-      "mgmt-ipv6-address": "2001:172:20:20::6",
+      "mgmt-ipv6-address": "2001:172:20:20::4",
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-13124dbf1795",
+        "clab-mgmt-net-bridge": "br-3e813fe8a86f",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/root/Documents/frrlab/clab-frrlab/router3",
+        "clab-node-lab-dir": "/home/mark/Documents/frrlab2/clab-frrlab/router3",
         "clab-node-name": "router3",
         "clab-node-type": "",
-        "clab-topo-file": "/root/Documents/frrlab/frrlab.yml",
+        "clab-topo-file": "/home/mark/Documents/frrlab2/frrlab.yml",
         "containerlab": "frrlab"
       }
     }
@@ -185,13 +185,13 @@
       "a": {
         "node": "router1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:48:9c:9b",
+        "mac": "aa:c1:ab:67:b7:ba",
         "peer": "z"
       },
       "z": {
         "node": "router2",
         "interface": "eth1",
-        "mac": "aa:c1:ab:37:e8:2c",
+        "mac": "aa:c1:ab:83:79:5e",
         "peer": "a"
       }
     },
@@ -199,13 +199,13 @@
       "a": {
         "node": "router1",
         "interface": "eth2",
-        "mac": "aa:c1:ab:9c:90:7f",
+        "mac": "aa:c1:ab:40:75:17",
         "peer": "z"
       },
       "z": {
         "node": "router3",
         "interface": "eth1",
-        "mac": "aa:c1:ab:e5:23:c5",
+        "mac": "aa:c1:ab:71:5a:d6",
         "peer": "a"
       }
     },
@@ -213,13 +213,13 @@
       "a": {
         "node": "router2",
         "interface": "eth2",
-        "mac": "aa:c1:ab:9d:91:95",
+        "mac": "aa:c1:ab:48:31:6a",
         "peer": "z"
       },
       "z": {
         "node": "router3",
         "interface": "eth2",
-        "mac": "aa:c1:ab:11:12:cd",
+        "mac": "aa:c1:ab:7f:92:f0",
         "peer": "a"
       }
     },
@@ -227,13 +227,13 @@
       "a": {
         "node": "PC1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:76:94:08",
+        "mac": "aa:c1:ab:2c:b8:48",
         "peer": "z"
       },
       "z": {
         "node": "router1",
         "interface": "eth3",
-        "mac": "aa:c1:ab:d8:b7:ee",
+        "mac": "aa:c1:ab:ab:e4:9d",
         "peer": "a"
       }
     },
@@ -241,13 +241,13 @@
       "a": {
         "node": "PC2",
         "interface": "eth1",
-        "mac": "aa:c1:ab:6e:36:9f",
+        "mac": "aa:c1:ab:2a:30:b1",
         "peer": "z"
       },
       "z": {
         "node": "router2",
         "interface": "eth3",
-        "mac": "aa:c1:ab:af:2d:46",
+        "mac": "aa:c1:ab:ab:89:41",
         "peer": "a"
       }
     },
@@ -255,13 +255,13 @@
       "a": {
         "node": "PC3",
         "interface": "eth1",
-        "mac": "aa:c1:ab:49:01:55",
+        "mac": "aa:c1:ab:f8:29:1d",
         "peer": "z"
       },
       "z": {
         "node": "router3",
         "interface": "eth3",
-        "mac": "aa:c1:ab:74:81:66",
+        "mac": "aa:c1:ab:ef:e0:68",
         "peer": "a"
       }
     }
