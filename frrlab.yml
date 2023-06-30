@@ -4,7 +4,7 @@ topology:
   nodes:
     minion1:
       Kind: linux
-      image: opennms/minion   
+      image: opennms/minion:latest 
     router1:
       kind: linux
       image: frrouting/frr:v7.5.1
